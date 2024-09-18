@@ -16,6 +16,8 @@ from .model import Timer
 from .model import available_models
 from .model import load_model
 from .outputs import available_outputs
+import habana_frameworks.torch.gpu_migration
+import habana_frameworks.torch.core as htcore
 
 LOG = logging.getLogger(__name__)
 
